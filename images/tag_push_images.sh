@@ -36,6 +36,7 @@ docker login -u $QUAY_USER -p $QUAY_PASS $REGISTRY
 #####
 # FOR EACH KAFKA VERSION TAG AND PUSH IMAGE
 #####
+docker buildx create --use
 for KAFKA_VERSION in $KAFKA_VERSIONS
 do
     CURRENT_TAG="$PRODUCT_VERSION-kafka-$KAFKA_VERSION"
