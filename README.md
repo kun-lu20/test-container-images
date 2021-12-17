@@ -21,6 +21,7 @@ docker pull strimzi-test-container/test-container:0.1.0-kafka-3.0.0
 ````
 
 
+
 # How the image is built
 
 The build process is divided into 3 phases:
