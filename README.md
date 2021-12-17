@@ -14,6 +14,7 @@ Pulling images can be achieved with following command:
 docker pull strimzi-test-container/test-container:<test-container-image-version>-kafka-<kafka-version>
 ```
 
+
 example:
 ```shell
 // download image with the 0.1.0 version and Kafka 3.0.0
