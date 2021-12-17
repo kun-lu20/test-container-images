@@ -1,7 +1,7 @@
 PROJECT_NAME=test-container
 DOCKERFILE_DIR ?= ./images
 REGISTRY ?= quay.io
-REGISTRY_ORGANIZATION ?= strimzi-test-container
+REGISTRY_ORGANIZATION ?= kunlu20
 IMAGE_TAG ?= main
 DOCKER_VERSION_ARG ?= latest
 
